@@ -58,26 +58,10 @@ box-shadow: 0 2px 20px rgba(80, 255, 0, 0.12);
         inset 0 0 10px rgba(140, 255, 0, 0.15);
     animation: neonFlicker 5s infinite;
 }
-
-@keyframes neonFlicker {
-
-    0%, 18%, 20%, 22%, 24%, 100% {
-        opacity: 1;
-        text-shadow:
-            0 0 5px rgba(140, 255, 0, 0.9),
-            0 0 12px rgba(140, 255, 0, 0.6),
-            0 0 25px rgba(140, 255, 0, 0.35);
-        box-shadow:
-            0 0 5px rgba(140, 255, 0, 0.8),
-            0 0 15px rgba(140, 255, 0, 0.5),
-            inset 0 0 10px rgba(140, 255, 0, 0.15);
-    }
-
-    19%, 21%, 23% {
-        opacity: 0.25;
-        text-shadow: none;
-        box-shadow: none;
-    }
+        nav .logo img {
+    width: 170px;
+    height: auto;
+    display: block;
 }
 
         nav ul {
@@ -699,9 +683,9 @@ nav {
 
     <nav>
 
-        <div class="logo">
-            GAEB 3D STUDIO
-        </div>
+       <div class="logo">
+        <img src="images/logov4fin.png" alt="GAEB3D">
+    </div>
 
         <ul>
             <li><a href="#home">Home</a></li>
